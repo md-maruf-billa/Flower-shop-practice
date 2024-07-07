@@ -1,0 +1,51 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+/* ------Shared style----- */
+.btn {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    padding: 8px 12px;
+    color: white;
+}
+
+
+/* ------Nav style------- */
+.nav-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-element {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
